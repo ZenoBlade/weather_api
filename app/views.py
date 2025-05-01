@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import requests
 # Create your views here.
-api_key ='e6fd885326e067b724da0497312aa213'
+api_key ='giveurapikey'
 def index(request):
     context =None
     if request.method == "POST":
